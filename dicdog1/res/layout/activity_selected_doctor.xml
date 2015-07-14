@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_border1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.docdig.DoctorsActivity" >
+
+   <TextView
+        android:id="@+id/textView4"
+        android:layout_width="417dp"
+        android:layout_height="55dp"
+        android:layout_x="-30dp"
+        android:layout_y="-6dp"
+        android:background="@drawable/text" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="179dp"
+        android:layout_height="64dp"
+        android:layout_x="-67dp"
+        android:layout_y="-4dp"
+        android:src="@drawable/new1" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="202dp"
+        android:layout_height="82dp"
+        android:layout_x="39dp"
+        android:layout_y="10dp"
+        android:textColor="#FFFFFF"
+        android:text="myDocFinder"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="417dp"
+        android:layout_x="0dp"
+        android:layout_y="52dp"
+        android:background="@layout/text" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="113dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="80sp"
+            android:layout_x="-20dp"
+            android:layout_y="53dp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="194dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="25sp"
+            android:layout_x="92dp"
+            android:layout_y="55dp"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="18sp"
+                android:layout_x="150dp"
+                android:layout_y="310dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_x="5dp"
+                android:layout_y="160dp"
+                android:text="Speciality"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="5dp"
+                android:layout_y="220dp"
+                android:text="Gender"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:typeface="sans"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="5dp"
+                android:layout_y="282dp"
+                android:text="Hospital:"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <Button
+        android:id="@+id/homebitton"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        android:layout_x="242dp"
+        android:layout_y="3dp"
+        android:background="@drawable/homelogo" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="277dp"
+                android:layout_height="30dp"
+                android:layout_x="5dp"
+                android:layout_y="180dp" 
+                android:background="@layout/text_view2"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="265dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="20sp"
+                android:layout_x="12dp"
+                android:layout_y="188dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <View
+                android:id="@+id/View01"
+                android:layout_width="277dp"
+                android:layout_height="30dp"
+                android:layout_x="5dp"
+                android:layout_y="240dp"
+                android:background="@layout/text_view2" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_x="12dp"
+                android:layout_y="248dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <View
+                android:id="@+id/View02"
+                android:layout_width="277dp"
+                android:layout_height="30dp"
+                android:layout_x="5dp"
+                android:layout_y="300dp"
+                android:background="@layout/text_view2" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="18sp"
+                android:layout_x="12dp"
+                android:layout_y="308dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_x="92dp"
+                android:layout_y="90dp"
+                android:src="@drawable/callnum" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="5dp"
+                android:layout_y="341dp"
+                android:text="Experience"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <View
+                android:id="@+id/View03"
+                android:layout_width="277dp"
+                android:layout_height="80dp"
+                android:layout_x="5dp"
+                android:layout_y="361dp"
+                android:background="@layout/text_view2" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="266dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="18sp"
+                android:layout_x="12dp"
+                android:layout_y="368dp"
+                android:maxHeight="50sp"
+                android:scrollbars="vertical"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:typeface="sans" />
+
+</AbsoluteLayout>
